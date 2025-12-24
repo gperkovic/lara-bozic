@@ -154,6 +154,37 @@ body{
   transform: rotate(-45deg) scale(0.95);
 }
 
+#lockScreen{
+  position:fixed;
+  inset:0;
+  background:black;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:9999;
+}
+
+.lockBox{
+  text-align:center;
+  color:white;
+}
+
+.lockBox input{
+  padding:10px;
+  font-size:16px;
+  margin-top:10px;
+}
+
+.lockBox button{
+  margin-top:10px;
+  padding:10px 20px;
+  background:red;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+
+
 
 
   
