@@ -59,6 +59,21 @@
     </div>
 
     <script src="./js/audio.js"></script>
+
+    <script>
+        function unlock(){
+          const correct = "lara";
+          const input = document.getElementById("pass").value;
+
+          if(input === correct){
+            document.getElementById("lockScreen").style.display = "none";
+          } else {
+            alert("❤️ Pogrešna lozinka");
+          }
+        }
+    </script>
+
 </body>
 </html>
+
 
