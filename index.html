@@ -10,6 +10,14 @@
     <title>Poklon za Božić</title>
 </head>
 <body>
+    <div id="lockScreen">
+      <div class="lockBox">
+        <h2>❤️ Samo za tebe</h2>
+        <input type="password" id="pass" placeholder="Upiši lozinku">
+        <button onclick="unlock()">Uđi</button>
+      </div>
+    </div>
+
     <script>
         const pass = prompt("Upiši lozinku ❤️");
 
@@ -19,19 +27,12 @@
     </script>
     
     <div class="greetings">
-
-        <span>L</span>
-        <span>J</span>
-        <span>U</span>
-        <span>B</span>
-        <span>I</span>
-        <span>C</span>
-        <span>E</span>
-        <span>&nbsp;</span><br>
-        <span>M</span>
-        <span>O</span>
-        <span>J</span>
-        <span>A</span>
+        <div>
+            <span>L</span><span>J</span><span>U</span><span>B</span><span>I</span><span>C</span><span>E</span>
+        </div>
+        <div>
+            <span>M</span><span>O</span><span>J</span><span>A</span>
+        </div>
     </div>
     <div class="greetings">
         <span></span>
@@ -60,3 +61,4 @@
     <script src="./js/audio.js"></script>
 </body>
 </html>
+
